@@ -4,7 +4,7 @@ const cors = require('cors')
 const app =express()
 const model = require('./models/data')
 
-mongoose.connect("mongodb+srv://ahmedewaisvi34:Vime3FQ41v3hD5e4@cluster0.hkxsfbr.mongodb.net/?retryWrites=true&w=majority")
+mongoose.connect("")/// add your database link here (mongoDB link !!)
 
 app.use(cors())
 app.use(express.json())
